@@ -1,5 +1,6 @@
 import './App.css';
 import Counter from './components/Counter';
+import FocusingInput from './components/FocusingInput';
 import Parents from './components/parents';
 
 
@@ -9,6 +10,8 @@ function App() {
     <div className="App">
      {/* <Parents/> */}
      <Counter/>
+     <br/>
+     <FocusingInput/>
     </div>
   );
 }

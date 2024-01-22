@@ -1,5 +1,7 @@
 import './App.css';
 import Counter from './components/Counter';
+import CounterOne from './components/CounterOne';
+import CounterTwo from './components/CounterTwo';
 import FocusingInput from './components/FocusingInput';
 import HookTimer from './components/HookTimer';
 import TimerClass from './components/TimerClass';
@@ -16,6 +18,8 @@ function App() {
      <FocusingInput/>
      <TimerClass/>
      <HookTimer/>
+     <CounterOne/>
+     <CounterTwo/>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import useCounter from "../hooks/useCounter";
 
 function CounterTwo(){
     const [count,increment,decrement,reset] = useCounter(10)
-    console.log(increment)
+    console.log("Count from countertwo : ",count)
     return(
         <div>
             <p>Count : {count}</p>
